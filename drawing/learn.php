@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 if(isset($_POST['num']))
 {
 
-    $homepage = file_get_contents('http://176.139.39.51/drawing/xor.data');
+    $homepage = file_get_contents('xor.data');
 
 
     $array = explode(" ",$homepage);
